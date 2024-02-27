@@ -1,0 +1,5 @@
+1. Asia/Jakarta
+2. Asia/Makassar
+3. Asia/Jayapura
+4. Asia/Ujung_Pandang
+5. Asia/Pontianak
