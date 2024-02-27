@@ -13,7 +13,7 @@ read -p "Pilihan Anda: " choice
 case $choice in
     1)
         default() {
-            git clone --depth=1 $(curl -s https://api.github.com/repos/teranixbq/goskeleton/contents/default | grep -o 'git://[^"]*' | head -n 1) "$directory/$folder_name"
+            git clone --depth=1 $(curl -s https://api.github.com/repos/teranixbq/goskeleton/contents/default | grep -o 'git://[^"]*' | head -n 1) "$folder_name"
         }
         default
         ;;
